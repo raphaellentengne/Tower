@@ -1,0 +1,4 @@
+- hosts: centos
+  tasks:
+    - name: Déplacement /home
+      shell: cd /home
